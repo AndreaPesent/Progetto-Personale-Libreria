@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="666.0" prefWidth="993.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.progettopersonalelibreria.HelloController">
+   <children>
+      <Button fx:id="BottoneAggiuntaLibro" layoutX="51.0" layoutY="136.0" mnemonicParsing="false" text="Aggiungi nuovo libro" />
+      <Button fx:id="BottoneRicerca" layoutX="225.0" layoutY="136.0" mnemonicParsing="false" text="Ricerca libro" />
+      <Button fx:id="BottoneAggiuntaTessera" layoutX="347.0" layoutY="136.0" mnemonicParsing="false" text="Aggiunta nuova tessera" />
+      <Button fx:id="BottoneVendita" layoutX="532.0" layoutY="136.0" mnemonicParsing="false" text="Vendita libro" />
+      <Button fx:id="BottoneStampaLibri" layoutX="662.0" layoutY="136.0" mnemonicParsing="false" text="Stampa tutti i libri" />
+      <Button fx:id="BottoneStampaTessere" layoutX="797.0" layoutY="136.0" mnemonicParsing="false" text="Stampa tutte le tessere" />
+      <TextField fx:id="PannelloPrincipale" layoutX="82.0" layoutY="323.0" prefHeight="298.0" prefWidth="836.0" />
+      <TextField fx:id="InputTitoloNome" layoutX="76.0" layoutY="214.0" />
+      <TextField fx:id="InputGenereCognome" layoutX="301.0" layoutY="214.0" />
+      <TextField fx:id="InputCodiceCodiceFis" layoutX="518.0" layoutY="214.0" />
+      <TextField fx:id="InputPrezzo" layoutX="717.0" layoutY="214.0" />
+   </children>
+</AnchorPane>
