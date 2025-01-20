@@ -59,8 +59,8 @@ public class Libri
         this.costo = costo;
     }
 
-    public void Visualizza()
+    public String  toString()
     {
-        System.out.println("Titolo" + this.titolo + " Genere: " + this.genere + " Codice: " + this.codice + " Costo: " + this.costo);
+        return "Titolo: " + this.titolo + " Genere: " + this.genere + " Codice: " + this.codice + " Costo: " + this.costo;
     }
 }

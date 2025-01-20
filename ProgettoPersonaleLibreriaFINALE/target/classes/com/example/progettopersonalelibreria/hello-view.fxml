@@ -13,9 +13,9 @@
       <Button fx:id="BottoneStampaLibri" layoutX="662.0" layoutY="136.0" mnemonicParsing="false" text="Stampa tutti i libri" />
       <Button fx:id="BottoneStampaTessere" layoutX="797.0" layoutY="136.0" mnemonicParsing="false" text="Stampa tutte le tessere" />
       <TextField fx:id="PannelloPrincipale" layoutX="82.0" layoutY="323.0" prefHeight="298.0" prefWidth="836.0" />
-      <TextField fx:id="InputTitoloNome" layoutX="76.0" layoutY="214.0" />
-      <TextField fx:id="InputGenereCognome" layoutX="301.0" layoutY="214.0" />
-      <TextField fx:id="InputCodiceCodiceFis" layoutX="518.0" layoutY="214.0" />
-      <TextField fx:id="InputPrezzo" layoutX="717.0" layoutY="214.0" />
+      <TextField fx:id="InputTitoloNome" alignment="CENTER" layoutX="76.0" layoutY="214.0" promptText="Inserisci titolo" />
+      <TextField fx:id="InputGenereCognome" alignment="CENTER" layoutX="301.0" layoutY="214.0" promptText="Inserisci genere" />
+      <TextField fx:id="InputCodiceCodiceFis" alignment="CENTER" layoutX="518.0" layoutY="214.0" promptText="Inserisci codice " />
+      <TextField fx:id="InputPrezzo" alignment="CENTER" layoutX="717.0" layoutY="214.0" promptText="Inserisci prezzo" />
    </children>
 </AnchorPane>
